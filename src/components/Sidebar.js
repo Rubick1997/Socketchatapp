@@ -3,7 +3,7 @@ import { Tab, Nav, Button, Modal } from "react-bootstrap";
 import Conversations from "./Conversations";
 import Contacts from "./Contacts";
 import NewConversationModal from "./NewConversationModal";
-import NewContactModal from "./newContactModal";
+import NewContactModal from "./NewContactModal";
 
 const CONVERSATIONS_KEY = "conversations";
 const CONTACTS_KEY = "contacts";
