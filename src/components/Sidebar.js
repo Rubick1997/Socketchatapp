@@ -37,6 +37,9 @@ function Sidebar({ id }) {
 						<Contacts />
 					</Tab.Pane>
 				</Tab.Content>
+				<div className='p-2 border-top border-right small'>
+					Your Id: <span className='text-muted'>{id}</span>
+				</div>
 				<Button
 					className='rounded-0'
 					onClick={() => {
